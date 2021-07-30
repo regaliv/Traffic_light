@@ -1,0 +1,19 @@
+counter++;
+switch (counter){
+    case 1:
+        b1.setBackgroundColor(getResources().getColor(R.color.green));
+        b2.setBackgroundColor(getResources().getColor(R.color.grey));
+        b3.setBackgroundColor(getResources().getColor(R.color.grey));
+    break;
+    case 2:
+        b1.setBackgroundColor(getResources().getColor(R.color.grey));
+        b2.setBackgroundColor(getResources().getColor(R.color.yellow));
+        b3.setBackgroundColor(getResources().getColor(R.color.grey));
+    break;
+    case 3:
+        b1.setBackgroundColor(getResources().getColor(R.color.grey));
+        b2.setBackgroundColor(getResources().getColor(R.color.grey));
+        b3.setBackgroundColor(getResources().getColor(R.color.red));
+        counter=0;
+    break;
+}
